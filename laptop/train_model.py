@@ -8,7 +8,7 @@ import joblib
 
 # Project paths
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_FILE = BASE_DIR / "test_data" / "real_readings.csv"
+DATA_FILE = BASE_DIR / "data" / "real_readings.csv"
 MODEL_DIR = BASE_DIR / "models"
 MODEL_FILE = MODEL_DIR / "sign_model.joblib"
 
